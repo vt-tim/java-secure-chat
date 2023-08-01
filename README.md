@@ -1,6 +1,7 @@
 # java-secure-chat
 
-This is an encrypted communication applications that facilitates a conversation between two individuals.
+This is an encrypted communication applications that facilitates a conversation between two individuals. It uses hybrid encryption for an optimal balance of authentication 
+integrity, confidentiality, and computing cost. Asymmetric encryption is used to facilitate the exchange of a shared secret key. Symmetric encryption is used to encrypt/decrypt messages aswell as produce/verify HMACs.
 
 To use this application each individual will need to download and compile either:
 Server.java + Exchange.java + MessageHandler.java
